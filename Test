@@ -4,5 +4,9 @@ public class wassupMyMan()
     {
         System.out.println("Wassup");
         System.out.println("What are you talking about?");
+        System.out.println("HECK");
+
+        //if this works you're a genius
+        System.out.println("WEHY");
     }
 }

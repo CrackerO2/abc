@@ -4,19 +4,22 @@ import javax.lang.model.util.ElementScanner6;
 
 public class Test
 {
-    public int numClasses = 0;
-    public int numWClasses = 0;
-    double sum = 0;
+     static int numClasses = 0;
+     static int numWClasses = 0;
+     static double sum = 0;
 
-    Scanner input = new Scanner(System.in);
+    
     public static void main(String[] args)
     {
         System.out.println(askForGrade());
 
     }
 
-    public double askForGrade()
+    public static double askForGrade()
     {
+
+        Scanner input = new Scanner(System.in);
+        
         System.out.println("How many classes do you take?");
         numClasses = input.nextInt();
 
